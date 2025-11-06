@@ -1,5 +1,41 @@
-<%-include ./partials/header.ejs %>
-<%-include ./partials/main_nav.ejs %>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %> page</p>
-<%-include ./partials/footer.ejs %>
+<%- include("partials/header") %>
+<%- include("partials/main_nav") %>
+
+<div class="container mt-5 text-light">
+
+  <section class="text-center mb-5">
+    <h2>Welcome to my Portfolio</h2>
+    <p>Hi, I'm Rabijan, a Networking and IT student at Ontario Tech University.</p>
+
+    <a href="/about" class="btn btn-primary btn-lg mt-3">
+      Learn more about me
+    </a>
+  </section>
+
+  <section class="row text-center">
+
+    <div class="col-md-3 p-3 bg-opacity-25 bg-dark rounded m-2">
+      <h3>Networking</h3>
+      <p>Packet Tracer troubleshooting and IT projects.</p>
+    </div>
+
+    <div class="col-md-3 p-3 bg-opacity-25 bg-dark rounded m-2">
+      <h3>Design & 3D Modeling</h3>
+      <p>Scissor lift design and modeling (engineering year 1).</p>
+    </div>
+
+    <div class="col-md-3 p-3 bg-opacity-25 bg-dark rounded m-2">
+      <h3>Hardware Repair</h3>
+      <p>Troubleshooting and repairing devices.</p>
+    </div>
+
+    <div class="col-md-3 p-3 bg-opacity-25 bg-dark rounded m-2">
+      <h3>Software</h3>
+      <p>Python programs with GUI using Tkinter.</p>
+    </div>
+
+  </section>
+
+</div>
+
+<%- include("partials/footer") %>
