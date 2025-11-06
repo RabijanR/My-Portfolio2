@@ -6,24 +6,33 @@
   <h2>About Me</h2>
 
   <div class="row mt-4">
-
-    <div class="col-md-4">
-      <img src="/Asset/images/Me.jpg" class="img-fluid rounded" alt="Rabijan Ragupalan">
-      <p class="mt-2 text-center">Rabijan Ragupalan</p>
-    </div>
-
     <div class="col-md-8">
-      <p>Hello! I'm Rabijan, a Networking and IT student at Ontario Tech University. I began my studies in engineering, which gave me experience in design and hands-on repair projects, before transferring into IT to focus on networking and systems.</p>
+
+      <!-- Profile image + name -->
+      <div class="text-start mb-4">
+        <img src="/Asset/images/Me.JPEG" 
+             class="img-fluid rounded-circle mb-3 shadow" 
+             alt="Rabijan Ragupalan" 
+             style="max-width: 250px;">
+        <h5 class="fw-bold">Rabijan Ragupalan</h5>
+      </div>
+
+      <!-- About text -->
+      <p>
+        Hello! I'm Rabijan, a Networking and IT student at Ontario Tech University.
+        I began my studies in engineering, which gave me experience in design and hands-on repair projects,
+        before transferring into IT to focus on networking and systems.
+      </p>
 
       <p>Here’s a short introduction video about me:</p>
 
-      <video class="w-100 rounded" controls poster="/Asset/images/on_record.jpg">
+      <!-- Video -->
+      <video class="w-100 rounded shadow" controls poster="/Asset/images/on_record.jpg">
         <source src="/Asset/images/Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
       </video>
-
     </div>
   </div>
-
 </div>
 
 <%- include("partials/footer") %>
