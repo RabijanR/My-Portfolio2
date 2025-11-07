@@ -33,13 +33,6 @@ Gradients
 - Angled Gradient (135°): was used in the hero section (`.hero`) to create a diagonal overlay for readability on top of the background image.  
 
 
-
-Semantic HTML
-I used semantic elements across all pages:  
-- `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<figure>`, `<figcaption>`, `<footer>`
-
-
-
 Form & Validation
 The **Contact Me** page contains a form with the following fields:  
 - Name (required, min 2 characters)  
@@ -56,6 +49,9 @@ The following tools were used to test and validate the site:
 - **Accessibility:** [WAVE Tool](http://wave.webaim.org/)  
 - **Spelling:** Checked using an online spell checker  
 
+sources
+- **Font Awesome** (https://fontawesome.com/)
+-**expressjs** (https://expressjs.com/)
 
 GitHub Repository: https://github.com/RabijanR/My-Portfolio2.git
 Portfolio Access Link:
